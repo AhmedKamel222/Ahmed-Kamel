@@ -7,7 +7,6 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: left;
             margin: 20px;
             background-color: #f4f4f4;
         }
@@ -20,13 +19,25 @@
         .contact-info p {
             margin: 5px 0;
         }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
     </style>
 </head>
 <body>
-    <h1>Ahmed Kamel Mohamed</h1>
-    <!-- Add the image of the user -->
-    <img src="profile.jpg" alt="Profile Picture of Ahmed Kamel" style="width:150px;height:150px;border-radius:50%;">
-    
+    <div class="header">
+        <h1>Ahmed Kamel Mohamed</h1>
+        <!-- Add the image of the user to the right -->
+        <img src="profile.jpg" alt="Profile Picture of Ahmed Kamel">
+    </div>
+
     <div class="contact-info">
         <p>Address: 56 El-Nasr St, Imbaba, Giza, Egypt - Cairo</p>
         <p>Phone: 01118077251</p>
@@ -73,4 +84,7 @@
             <li>Languages: Arabic (Native), English (Very Good).</li>
         </ul>
     </div>
+</body>
+</html>
+
     
